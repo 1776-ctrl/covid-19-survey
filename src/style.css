@@ -1,0 +1,31 @@
+body {
+    font-family: monospace;
+    font-size: 16px;
+    background-color: rgb(171, 40, 31) ;
+    text-align:;
+    padding-left:50px;
+  Padding-right: 50px;
+    margin: 5px;
+}
+l
+
+input{
+  display:block;
+  padding-bottom:10px;
+ 
+}
+#dropdown {
+  display:block;
+}
+
+
+
+form {
+  background-color: rgba(31, 117, 171, 0.6);
+ border: solid 2px;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+}

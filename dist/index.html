@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - COVID-19 Survey</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <header> <h1 id="title">COVID-19 Info</h1> </header>
+
+<p id="description"><h3>This is to gather information on where the virus has infected the most people.</h3></p>
+ 
+<form id="survey-form">
+    
+<label id="name-label">1)Name:     </label>
+<input type="text"name="name" id="name" required placeholder="First Name"></input><br>
+  
+<label id="email-label">2)Email:</label>
+  <input type="email" name="email" id="email" required placeholder="Email">
+</input><br>
+
+<label id="number-label">3)Age:</label>
+<input type="number" name"number" min="0" max="100"id="number" placeholder="Age"</input><br>
+
+<label id="country-label" >4)Country:</label>
+  <input type="email" name="country" id="country" required placeholder="Country">
+</input><br>
+
+<label for="gender">5)Gender:</label><br>
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label><br>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label>
+  <br>
+
+<label for="situation">6)What is your current living situation?</label>
+<br>
+<input type="checkbox" id="employed1" name="employed1" value="employed1">
+<label for="vehicle1"> Employed Full-Time</label><br>
+
+<input type="checkbox" id="employed2" name="employed2" value="employed2">
+<label for="employed2">Employed Part-Time </label><br>
+
+<input type="checkbox" id="Unemployed" name="Unemployed" value="Unemployed"> <label for="Unemployed">Unemployed</label><br>
+
+<input type="checkbox" id="Student" name="Student" value="Student">
+<label for="vehicle3">Student</label><br>
+<input type="checkbox" id="Other" name="Other" value="Other">
+<label for="other">Other</label><br>
+
+<label for="covid">7)Have you had COVID?</label>
+<select name="covid" id="dropdown">
+  <option value="yes">Yes</option>
+  <option value="no">No</option></select>
+<br>
+
+<label for="symptoms">8)If yes, were you asymptomatic?</label>
+<select name="symptoms" id="dropdown">
+  <option value="yes">Yes</option>
+  <option value="no">No</option></select>
+<br>
+
+<label for="more-info">8)Additional Info (optional):</label><br>
+
+<textarea id="additional-info" name="Info" rows="10" cols="50">
+
+</textarea>               
+ <br>
+
+<input type="submit"></input>
+    
+</form>
+<!-- partial -->
+  
+</body>
+</html>
